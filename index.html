@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Lista de Tareas</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+	<header>
+		<h1>Mi Lista de Tareas</h1>
+		<p>Aquí encontrarás una lista sencilla en la que podrás añadir y eliminar tareas.</p>
+	</header>
+
+	<section class="task-input">
+		<label for="new-task">Añadir nueva tarea:</label>
+		<form>
+			<input type="text" placeholder="Nueva tarea..." id="new-task" name="new-task">
+			<button type="submit">Añadir</button>
+		</form>
+	</section>
+
+	<main>
+		<h2>Todas las tareas añadidas</h2>
+		<ul id="task-list">
+			<!-- Las tareas deben añadirse aquí -->
+			<li>
+				<label>
+					Comprar leche
+					<input type="checkbox">
+				</label>
+			</li>
+			<li>
+				<label>
+					Llevar al perro al parque
+					<input type="checkbox">
+				</label>
+			</li>
+			<li>
+				<label>
+					Terminar el proyecto
+					<input type="checkbox">
+				</label>
+			</li>
+			</li>
+		</ul>
+		<div class="task-actions">
+			<button type="button">Eliminar completadas</button>
+			<button type="button">Eliminar todas</button>
+		</div>
+	</main>
+
+	<footer>2026 Prueba Técnica - HTML y CSS</footer>
+</body>
+
+</html>
