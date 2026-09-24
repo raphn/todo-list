@@ -108,6 +108,12 @@ li {
 	font-style: italic;
 }
 
+li.completed {
+	color: #777;
+	opacity: 0.6;
+	text-decoration: line-through;
+}
+
 p {
 	font-size: 1.2em;
 	border: 4px solid #ffcb86;

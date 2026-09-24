@@ -17,7 +17,7 @@
 
 	<section class="task-input">
 		<label for="new-task">Añadir nueva tarea:</label>
-		<form>
+		<form id="task-form">
 			<input type="text" placeholder="Nueva tarea..." id="new-task" name="new-task">
 			<button type="submit">Añadir</button>
 		</form>
@@ -27,33 +27,15 @@
 		<h2>Todas las tareas añadidas</h2>
 		<ul id="task-list">
 			<!-- Las tareas deben añadirse aquí -->
-			<li>
-				<label>
-					Comprar leche
-					<input type="checkbox">
-				</label>
-			</li>
-			<li>
-				<label>
-					Llevar al perro al parque
-					<input type="checkbox">
-				</label>
-			</li>
-			<li>
-				<label>
-					Terminar el proyecto
-					<input type="checkbox">
-				</label>
-			</li>
-			</li>
 		</ul>
 		<div class="task-actions">
-			<button type="button">Eliminar completadas</button>
-			<button type="button">Eliminar todas</button>
+			<button type="button" id="delete-completed">Eliminar completadas</button>
+			<button type="button" id="delete-all">Eliminar todas</button>
 		</div>
 	</main>
 
 	<footer>2026 Prueba Técnica - HTML y CSS</footer>
+	<script src="js/app.js"></script>
 </body>
 
 </html>
